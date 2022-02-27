@@ -17,6 +17,9 @@
 		646FACEE27CB26AA00B62418 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646FACC427CB26A600B62418 /* ContentView.swift */; };
 		646FACEF27CB26AA00B62418 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 646FACC527CB26AA00B62418 /* Assets.xcassets */; };
 		646FACF027CB26AA00B62418 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 646FACC527CB26AA00B62418 /* Assets.xcassets */; };
+		646FAD0227CB26F000B62418 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646FAD0127CB26F000B62418 /* Home.swift */; };
+		646FAD0427CB333000B62418 /* SnapCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646FAD0327CB333000B62418 /* SnapCarousel.swift */; };
+		646FAD0627CB3D6100B62418 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646FAD0527CB3D6100B62418 /* Post.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		646FACE327CB26AA00B62418 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		646FACE727CB26AA00B62418 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		646FACE927CB26AA00B62418 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		646FAD0127CB26F000B62418 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		646FAD0327CB333000B62418 /* SnapCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapCarousel.swift; sourceTree = "<group>"; };
+		646FAD0527CB3D6100B62418 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,8 @@
 		646FACC227CB26A600B62418 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				646FAD0027CB26D000B62418 /* Model */,
+				646FACFF27CB26CA00B62418 /* View */,
 				646FACC327CB26A600B62418 /* CarouselListApp.swift */,
 				646FACC427CB26A600B62418 /* ContentView.swift */,
 				646FACC527CB26AA00B62418 /* Assets.xcassets */,
@@ -139,6 +147,23 @@
 				646FACE927CB26AA00B62418 /* Tests_macOSLaunchTests.swift */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		646FACFF27CB26CA00B62418 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				646FAD0127CB26F000B62418 /* Home.swift */,
+				646FAD0327CB333000B62418 /* SnapCarousel.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		646FAD0027CB26D000B62418 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				646FAD0527CB3D6100B62418 /* Post.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,7 +325,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				646FACED27CB26AA00B62418 /* ContentView.swift in Sources */,
+				646FAD0427CB333000B62418 /* SnapCarousel.swift in Sources */,
+				646FAD0227CB26F000B62418 /* Home.swift in Sources */,
 				646FACEB27CB26AA00B62418 /* CarouselListApp.swift in Sources */,
+				646FAD0627CB3D6100B62418 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
